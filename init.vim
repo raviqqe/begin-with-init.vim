@@ -2,12 +2,6 @@
 
 call plug#begin()
 
-"" color
-
-Plug 'cocopon/iceberg.vim'
-
-"" misc
-
 Plug 'airblade/vim-gitgutter'
 Plug 'Chiel92/vim-autoformat'
 Plug 'easymotion/vim-easymotion'
@@ -34,6 +28,10 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'sheerun/vim-polyglot'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+"" color
+
+Plug 'cocopon/iceberg.vim'
 
 call plug#end()
 
