@@ -5,9 +5,10 @@
 
 Opinionated [neovim] distribution as `init.vim`
 
-`begin-with-init.vim` gives you a starter kit of
-[neovim] with state-of-the-art plugins and
-common best practices.
+`begin-with-init.vim` gives you a starter kit of [neovim] with state-of-the-art
+plugins and common best practices.
+It's just your initial configuration file `init.vim`, but not a heavy stack of
+plugins.
 
 ## Installation
 
