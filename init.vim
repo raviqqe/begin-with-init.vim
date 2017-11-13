@@ -10,7 +10,6 @@ Plug 'cocopon/iceberg.vim'
 
 Plug 'airblade/vim-gitgutter'
 Plug 'Chiel92/vim-autoformat'
-Plug 'christoomey/vim-tmux-navigator'
 Plug 'easymotion/vim-easymotion'
 Plug 'farmergreg/vim-lastplace'
 Plug 'jiangmiao/auto-pairs'
@@ -33,32 +32,8 @@ Plug 'junegunn/fzf.vim'
 
 "" language
 
-Plug 'fatih/vim-hclfmt'
-Plug 'hashivim/vim-hashicorp-tools'
 Plug 'sheerun/vim-polyglot'
-
-""" python
-
-Plug 'alfredodeza/pytest.vim'
-Plug 'zchee/deoplete-jedi'
-
-""" go
-
-Plug 'zchee/deoplete-go'
-
-""" rust
-
-Plug 'phildawes/racer'
-Plug 'racer-rust/vim-racer'
-Plug 'rust-lang-nursery/rustfmt'
-Plug 'sebastianmarkow/deoplete-rust'
-
-"" deoplete
-
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/neosnippet.vim'
-Plug 'Shougo/neosnippet-snippets'
-Plug 'honza/vim-snippets'
 
 call plug#end()
 
