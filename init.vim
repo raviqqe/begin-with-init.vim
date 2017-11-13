@@ -24,7 +24,6 @@ Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'itchyny/lightline.vim'
 Plug 'w0rp/ale'
-Plug 'wellle/targets.vim'
 Plug '907th/vim-auto-save'
 
 "" fuzzy finder
