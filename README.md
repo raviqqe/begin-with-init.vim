@@ -3,10 +3,10 @@
 [![Circle CI](https://img.shields.io/circleci/project/github/raviqqe/begin-with-init.vim.svg?style=flat-square)](https://circleci.com/gh/raviqqe/begin-with-init.vim)
 [![License](https://img.shields.io/github/license/raviqqe/begin-with-init.vim.svg?style=flat-square)](LICENSE)
 
-Opinionated neovim distribution as `init.vim`
+Opinionated [neovim] distribution as `init.vim`
 
 `begin-with-init.vim` gives you a starter kit of
-[neovim](https://github.com/neovim/neovim) with state-of-the-art plugins and
+[neovim] with state-of-the-art plugins and
 common best practices.
 
 ## Installation
@@ -90,3 +90,5 @@ Edit your own `~/.config/nvim/init.vim`!
 ## License
 
 [MIT](LICENSE)
+
+[neovim]: https://github.com/neovim/neovim
