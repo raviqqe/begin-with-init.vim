@@ -46,6 +46,43 @@ At the top directory,
 - [vim-polyglot](https://github.com/sheerun/vim-polyglot) - Multi language integration
 - [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) - Auto-completion engine
 
+## Key mappings
+
+```vim
+" Map a leader to the easiest key to push ever.
+let g:mapleader = "\<space>"
+
+" Swap gj/gk with j/k.
+nnoremap <expr> j v:count ? 'j' : 'gj'
+nnoremap <expr> k v:count ? 'k' : 'gk'
+nnoremap gj j
+nnoremap gk k
+
+" Unhighlight by pusing escape keys twice.
+nnoremap <esc><esc> :nohlsearch<cr>
+
+" Yank a line with Y.
+nnoremap Y y$
+
+" Open buffers, files, and so on with fzf.
+nnoremap <leader>b :Buffers<cr>
+nnoremap <leader>c :History:<cr>
+nnoremap <leader>f :Files<cr>
+nnoremap <leader>g :GFiles<cr>
+nnoremap <leader>h :History<cr>
+nnoremap <leader>l :Lines<cr>
+nnoremap <leader>m :Maps<cr>
+nnoremap <leader>r :Ag<cr>
+```
+
+You also navigate completion results from `deoplete.nvim` with Ctrl-N/P.
+
+You may check other key mappings from the plugins.
+
+- [vim-easymotion](https://github.com/easymotion/vim-easymotion)
+- [vim-commentary](https://github.com/tpope/vim-commentary)
+- [vim-surround](https://github.com/tpope/vim-surround)
+
 ## Customization
 
 Edit your own `~/.config/nvim/init.vim`!
