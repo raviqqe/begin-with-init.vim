@@ -3,7 +3,7 @@
 [![Circle CI](https://img.shields.io/circleci/project/github/raviqqe/begin-with-init.vim.svg?style=flat-square)](https://circleci.com/gh/raviqqe/begin-with-init.vim)
 [![License](https://img.shields.io/github/license/raviqqe/begin-with-init.vim.svg?style=flat-square)](LICENSE)
 
-Opinionated [neovim] distribution as `init.vim`
+Minimal [neovim] distribution as `init.vim`
 
 `begin-with-init.vim` gives you a starter kit of [neovim] with state-of-the-art
 plugins and common best practices.
