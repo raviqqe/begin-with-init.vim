@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ubuntu
+    steps:
+      - checkout
+      - run:
+          name: OS Setup
+          command: |
+            apt -y update --fix-missing
+            apt -y install software-properties-common
+            add-apt-repository -y ppa:neovim-ppa/stable
+            apt -y update --fix-missing
+            apt -y install build-essential curl git neovim python3 python3-pip ruby ruby-dev
+      - run:
+          name: Install
+          command: ./install.sh
