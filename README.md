@@ -1,6 +1,6 @@
 # begin-with-init.vim
 
-Unopinionated neovim distribution as `init.vim`
+Opinionated neovim distribution as `init.vim`
 
 `begin-with-init.vim` gives you a starter kit of
 [neovim](https://github.com/neovim/neovim) with state-of-the-art plugins and
