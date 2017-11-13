@@ -86,10 +86,6 @@ set showmode
 set splitbelow
 set splitright
 set wrap
-autocmd Rc BufRead,BufNewFile *.jl set filetype=julia
-autocmd Rc BufRead,BufNewFile *.tisp set filetype=tisp
-autocmd Rc BufRead,BufNewFile *.ts set filetype=typescript
-autocmd Rc BufRead,BufNewFile *.rules set filetype=text
 autocmd Rc FileType sh set filetype=zsh
 autocmd Rc BufEnter * EnableStripWhitespaceOnSave
 
@@ -97,31 +93,12 @@ autocmd Rc BufEnter * EnableStripWhitespaceOnSave
 
 let g:mapleader = "\<space>"
 
-nnoremap ; :
-nnoremap : ;
-vnoremap ; :
-vnoremap : ;
-
 nnoremap <expr> j v:count ? 'j' : 'gj'
 nnoremap <expr> k v:count ? 'k' : 'gk'
 nnoremap gj j
 nnoremap gk k
 nnoremap <esc><esc> :nohlsearch<cr>
-nnoremap <leader>w :w<cr>
-nnoremap <leader>q :q<cr>
-nnoremap Q :q!<cr>
 nnoremap Y y$
-
-inoremap <c-h> <left>
-inoremap <c-j> <down>
-inoremap <c-k> <up>
-inoremap <c-l> <right>
-
-cnoremap <c-h> <left>
-cnoremap <c-j> <c-n>
-cnoremap <c-k> <c-p>
-cnoremap <c-l> <right>
-
 
 
 " plugin settings
