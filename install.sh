@@ -11,4 +11,4 @@ gem install --user-install neovim
 
 cp ./init.vim ~/.config/nvim/init.vim
 
-nvim +PlugUpgrade +PlugClean! +PlugUpdate +qall
+nvim --headless +PlugUpgrade +PlugClean! +PlugUpdate +qall
