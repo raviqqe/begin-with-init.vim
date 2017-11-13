@@ -20,4 +20,4 @@ Edit your `~/.config/nvim/init.vim`!
 
 ## License
 
-[The Unlicense](https://unlicense.org)
+[MIT](LICENSE)
