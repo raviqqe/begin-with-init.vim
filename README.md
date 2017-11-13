@@ -39,7 +39,7 @@ At the top directory,
 ### Fuzzy finder
 
 - [fzf](https://github.com/junegunn/fzf) - Fuzzy finder command
-- [fzf](https://github.com/junegunn/fzf.vim) - fzf integration for Vim
+- [fzf.vim](https://github.com/junegunn/fzf.vim) - fzf integration for Vim
 
 ### Language support
 
