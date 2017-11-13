@@ -86,7 +86,6 @@ set showmode
 set splitbelow
 set splitright
 set wrap
-autocmd Rc FileType sh set filetype=zsh
 autocmd Rc BufEnter * EnableStripWhitespaceOnSave
 
 "" keymaps
@@ -109,30 +108,6 @@ let g:deoplete#enable_at_startup = 1
 let g:deoplete#auto_complete_start_length = 1
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 inoremap <expr><s-tab> pumvisible() ? "\<c-p>" : "\<s-tab>"
-
-
-"" deoplete-rust
-
-let g:deoplete#sources#rust#racer_binary = $HOME . '/.cargo/bin/racer'
-let g:deoplete#sources#rust#rust_source_path = $RUST_SRC_PATH
-
-
-"" neosnippet
-
-let g:neosnippet#enable_auto_clear_markers = 0
-let g:neosnippet#enable_snipmate_compatibility = 1
-let g:neosnippet#snippets_directory = [
-			\ '~/.config/nvim/snippets',
-			\ '~/.config/nvim/plugged/vim-snippets/snippets']
-imap <c-s> <plug>(neosnippet_expand_or_jump)
-smap <c-s> <plug>(neosnippet_expand_or_jump)
-xmap <c-s> <plug>(neosnippet_expand_target)
-
-
-"" easymotion
-
-nmap t <plug>(easymotion-s2)
-nmap / <plug>(easymotion-sn)
 
 
 "" auto-pairs
@@ -158,20 +133,6 @@ nnoremap <leader>r :Ag<cr>
 autocmd Rc BufEnter,BufWinEnter,BufRead,BufNewFile *
 			\ if &filetype == "" | set filetype=text | endif
 autocmd Rc BufWrite * :Autoformat
-autocmd Rc FileType
-			\ conf,cucumber,diff,elm,gitrebase,groovy,markdown,sh,text,tisp,xdefaults,yaml,zsh
-			\ let b:autoformat_autoindent = 0
-let g:formatters_python = ['autopep8']
-let g:formatters_javascript = ['standard_javascript']
-
-
-"" ale
-
-let g:ale_linters = {
-			\ 'javascript' : ['standard'],
-			\ 'python': ['flake8', 'pylint'],
-			\ }
-let g:ale_javascript_standard_options = '--global describe --global it'
 
 
 "" auto-save
