@@ -1,4 +1,4 @@
-# distrc.nvim
+# begin-with-init.vim
 
 Opinionated neovim distribution as init.vim
 
