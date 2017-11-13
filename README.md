@@ -75,9 +75,9 @@ nnoremap <leader>m :Maps<cr>
 nnoremap <leader>r :Ag<cr>
 ```
 
-You also navigate completion results from `deoplete.nvim` with Ctrl-N/P.
+You can navigate completion results from `deoplete.nvim` with Ctrl-N/P.
 
-You may check other key mappings from the plugins.
+You may also check other key mappings from the plugins.
 
 - [vim-easymotion](https://github.com/easymotion/vim-easymotion)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
